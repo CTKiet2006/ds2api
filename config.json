@@ -9,15 +9,8 @@
       "remark": "Dùng cho tất cả project: auto-content, webhoctap, AetherNode"
     }
   ],
-  "accounts": [
-    {
-      "_comment": "THÊM DEEPSEEK ACCOUNT CỦA BẠN VÀO ĐÂY",
-      "name": "Kiet Account",
-      "remark": "Đăng nhập DeepSeek Web - lấy email/password từ deepseek.com",
-      "email": "YOUR_DEEPSEEK_EMAIL@gmail.com",
-      "password": "YOUR_DEEPSEEK_PASSWORD"
-    }
-  ],
+  "_note": "ACCOUNTS ĐƯỢC ĐẶT TRONG VERCEL ENVIRONMENT VARIABLES (PRIVATE), KHÔNG TRONG REPO",
+  "accounts": [],
   "model_aliases": {
     "gpt-4o": "deepseek-v4-flash",
     "gpt-4.1": "deepseek-v4-flash",
@@ -38,10 +31,7 @@
     "deepseek-v4": "deepseek-v4-flash",
     "deepseek-chat": "deepseek-v4-flash",
     "deepseek-v4-flash": "deepseek-v4-flash",
-    "deepseek-v4-pro": "deepseek-v4-pro",
-    "deepseek-v4-pro-nothinking": "deepseek-v4-pro-nothinking",
-    "deepseek-v4-flash-nothinking": "deepseek-v4-flash-nothinking",
-    "deepseek-v4-flash-search": "deepseek-v4-flash-search"
+    "deepseek-v4-pro": "deepseek-v4-pro"
   },
   "responses": {
     "store_ttl_seconds": 900
